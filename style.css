@@ -1,0 +1,130 @@
+#showText {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#showText1 {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#showText2 {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#hideText {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hideText1 {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hideText2 {
+  width: 46px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h5 {
+  text-align: center;
+  font-weight : bold;
+}
+
+.animateOnce {
+  -webkit-animation: splash 1s normal forwards ease-in-out;
+  -moz-animation: splash 1s normal forwards ease-in-out;
+  -o-animation: splash 1s normal forwards ease-in-out;
+  animation: splash 1s normal forwards ease-in-out;
+}
+
+@-webkit-keyframes splash {
+  from {
+    opacity: 0;
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes splash {
+  from {
+    opacity: 0;
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+#text {
+  text-align: center;
+  margin-top: 6%;
+  font-family: segoeprb;
+}
+#text1 {
+  text-align: center;
+  margin-top: 6%;
+  font-family: segoeprb;
+}
+#text2 {
+  text-align: center;
+  margin-top: 6%;
+  font-family: segoeprb;
+}
+#image
+{
+margin-top: 10%;
+}
+
+.card {
+box-shadow: 0px 0px 10px 2px rgba(230, 227, 47);
+margin: 0 auto; /* Added */
+float: none; /* Added */
+margin-bottom: 10px; /* Added */
+margin-top: 10%;
+border: none;
+}
+#innovation {
+  margin-top: 4%;
+  font-family: CaveatBrush-Regular;
+  font-size: 35px;
+}
+#showText1{
+     ...
+     animation: bounce 0.7s ease infinite;
+}
+
+@keyframes bounce{
+     from {top: 106px;}
+     50%  {top: 86px;}
+     to   {top: 106px;}
+}
+@font-face {
+font-family: 'CaveatBrush-Regular';
+src: url('CaveatBrush-Regular.ttf');
+}
+
+@font-face {
+font-family: 'segoeprb';
+src: url('segoeprb.ttf');
+{
